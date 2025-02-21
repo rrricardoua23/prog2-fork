@@ -7,3 +7,17 @@ class Horario:
         self.hora_inicio = hora_inicio
         self.hora_fin = hora_fin
         Horario.total_horarios += 1  # Aumenta el contador cada vez que se crea un horario
+    def mostrar_horario(self):
+        pass
+    def modificar_horario(self):
+        pass
+    def __str__(self):
+        pass
+    def __repr__(self):
+        pass
+    @classmethod
+    def desde_tupla(cls, tupla):
+        pass
+    @staticmethod
+    def es_horario_valido(self):
+        pass
